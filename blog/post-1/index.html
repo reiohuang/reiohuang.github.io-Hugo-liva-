@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Reio&#39;s Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="設計漂亮的個人網站">
+  <meta name="author" content="Reio">
+  <meta name="generator" content="Hugo 0.92.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://reiohuang.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://reiohuang.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://reiohuang.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://reiohuang.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://reiohuang.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://reiohuang.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://reiohuang.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-222909404-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://reiohuang.github.io"><img class="img-fluid"
+          src="https://reiohuang.github.io/images/logo.png" alt="Reio&#39;s Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/reiohuang"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://reiohuang.github.io"><img class="img-fluid"
+            src="https://reiohuang.github.io/images/logo.png" alt="Reio&#39;s Blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://reiohuang.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://reiohuang.github.io/blog/">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://reiohuang.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/hugo"
+          class="text-primary">Hugo</a>
+        
+        <h2>如何使用 Hugo 架設部落格</h2>
+        <div class="mb-3 post-meta">
+          <span>By Reio</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>14 March 2022</span>
+          
+        </div>
+        
+        <img src="https://reiohuang.github.io/images/featured-post/post-1.jpg" class="img-fluid w-100 mb-4" alt="如何使用 Hugo 架設部落格">
+        
+        <div class="content mb-5">
+          <h1 id="github-免費架站術">Github 免費架站術！</h1>
+<h2 id="第-1-章-在-github-上建立第一份-code">第 1 章 在 GitHub 上建立第一份 code</h2>
+<h2 id="第-2-章-認識-hugo">第 2 章 認識 Hugo</h2>
+<h3 id="單元2---在-mac-上使用-hugo-運行個人網站">單元2 - 在 Mac 上使用 Hugo 運行個人網站</h3>
+<p>先安裝 Homebrew，再透過 Homebrew 去安裝 hugo <code>brew install hugo</code>。</p>
+<ul>
+<li>Liva 主題：<a href="https://themes.gohugo.io/liva-hugo/">https://themes.gohugo.io/liva-hugo</a></li>
+<li>Minos 主題：<a href="https://themes.gohugo.io/themes/hugo-theme-minos/">https://themes.gohugo.io/themes/hugo-theme-minos/</a></li>
+<li>Coder 主題：<a href="https://themes.gohugo.io/hugo-coder/">https://themes.gohugo.io/hugo-coder</a></li>
+</ul>
+<p>下載 <strong><a href="https://github.com/gethugothemes/liva-hugo">liva-hugo</a></strong> 主題，解壓縮後，將 exampleSite 資料夾從 liva-hugo-master 資料夾單獨拉來放置，並在 exampleSite 裡面創建一個新的資料夾，叫做 themes。
+![[Pasted image 20220206154237.png]]</p>
+<p>創建好 themes 之後，將 liva-hugo-master 名稱改成 liva-hugo 後，將 liva-hugo 資料夾放到 themes 裡面。
+![[Pasted image 20220206155643.png]]</p>
+<p>![[Pasted image 20220206160707.png]]</p>
+<p>在終端機，於 exampleSite 資料夾路徑下輸入 <code>hugo server</code> 運行網站
+![[Pasted image 20220206161158.png]]</p>
+<p>http://localhost:1313/liva/ 這一行出現的時候呢 就表示你的個人網站已經成功運行起來了，將這行網址貼到瀏覽器，就會發現 Liva Hugo 這個主題的個人網站，已經成功的在你的電腦上執行。</p>
+<pre tabindex="0"><code class="language-ad-warning" data-lang="ad-warning">title: 如果無法執行，可用無痕視窗開啟
+collapse: open
+</code></pre><h3 id="單元4---安裝-vs-code個人網站參數設定">單元4 - 安裝 VS Code、個人網站參數設定</h3>
+<p>安裝 TOML 插件
+![[Pasted image 20220128080644.png]]</p>
+<p><strong>default configuration</strong>
+修改 TOML 檔中的預設參數設定
+![[Pasted image 20220128081241.png]]</p>
+<p>在終端機上輸入 <code>hugo server</code> 將網站運行起來，可以看到標籤已經變成 Reio&rsquo;s Blog。
+![[Pasted image 20220312003554.png]]</p>
+<p><strong>default parameters</strong>
+圖片位置通常放在 <code>/static/images</code> 資料夾中，liva-hugo 主題顯示的 Logo 就放在這裡。</p>
+<p>description：個人網站的一些簡短的介紹，可以自由發揮。
+author：文章上面顯示的作者的名字
+![[Pasted image 20220312091326.png]]</p>
+<p>文章作者已被改成「Reio」這個名字
+![[Pasted image 20220312091508.png]]</p>
+<p>Contact Information：個人資訊</p>
+<p><strong>news letter</strong>
+訂閱信功能，要跟後端資料庫連結，沒辦法使用這功能，可以先關掉(enable = false)這個功能。
+![[Pasted image 20220312122807.png]]</p>
+<p><strong>social site</strong>
+社交網站的連結設定
+![[Pasted image 20220312122938.png]]</p>
+<p><strong>About Me</strong>
+路徑：<code>/about/ _index.md</code></p>
+<ol>
+<li>把 About Me 圖片複製到 images 資料夾裡面</li>
+<li>改程式碼</li>
+</ol>
+<p>明明都已經把圖片複製到 images 資料夾下面，然後設定檔也改好了，但是不知道為什麼 這邊的圖片呈現的還是舊的那張照片，這個是因為 Chrome 他這個瀏覽器本身運作的方式導致的，為了要解決這種圖片呈現不一致的問題，我們必須要安裝另一個 Chrome 插件 才能夠解決他。
+![[Pasted image 20220128094303.png]]</p>
+<p><strong>相簿 Gallery</strong>
+路徑：<code>/data/gallery.yml</code>
+關掉相簿，enable 設為 false
+![[Pasted image 20220312141348.png]]</p>
+<p><strong>標籤頁 icon</strong>
+路徑：<code>/static/image/favicon.png</code>
+圖片格式一定要是 png 格式</p>
+<p>修改前：
+![[Pasted image 20220312003554.png]]</p>
+<p>修改後，若 icon 無法正常呈現，請先關掉瀏覽器視窗，再重新開啟即可。</p>
+<p>修改後：
+![[Pasted image 20220312135759.png]]</p>
+<h2 id="第3章-嘗試寫一篇文章">第3章 嘗試寫一篇文章</h2>
+<h3 id="單元1---marddown-語法介紹">單元1 - Marddown 語法介紹</h3>
+<ul>
+<li>縮排：4 個空白鍵</li>
+<li>文章連結：<code>[呈現的文字](blog/post-1)</code></li>
+<li>圖片：<code>![](/static/images/gallery/1.jpg)</code></li>
+</ul>
+<p>程式碼：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#34;Hello World&#34;</span>)
+<span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#34;Hello World&#34;</span>)
+<span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#34;Hello World&#34;</span>)
+</code></pre></div><h3 id="單元2---分類文章為文章加上標籤">單元2 - 分類文章、為文章加上標籤</h3>
+<p>留下 post-1 做為參考，其餘刪除。
+![[Pasted image 20220311233159.png]]</p>
+<p>點擊 post-1.md 檔，line1~24 是 hugo 的文章設定，新建立的文章最前面都需貼上此設定。
+![[Pasted image 20220312152134.png]]
+title: 文章標題
+date: 撰寫時間，台灣時區改成 +08:00，Hugo 預設會把最新的文章放在最前面。
+draft: 可以指定這篇文章是不是草稿，Hugo 不會把標註為草稿(true)的文章顯示在網站上。
+image: 標題圖片
+description: 這篇文章的簡短介紹，只會在分享這篇文章的連結時出現，在個人網站上不顯示。</p>
+<p>line13~20: 可為文章進行分類，以及加上標籤。每一篇文章只能屬於一個分類，但可以打上很多標籤。</p>
+<p>type: 可以不用改，維持在 featured。</p>
+<h3 id="單元3---使用-hugo-shortcodes">單元3 - 使用 Hugo shortcodes</h3>
+<p>可以插入 YouTube 影片或是 Twitter 貼文在文章裡面。
+進入 <a href="https://gohugo.io/">Hugo 官方首頁</a>，在 Search the Docs 輸入 shortcodes，點擊第一個連結，進到 Hugo 的 shortcodes 介紹頁面，文章中有使用方法和範例。</p>
+<p>![[Pasted image 20220312232405.png]]</p>
+<p><strong>插入 YouTube 影片</strong></p>
+<pre tabindex="0"><code>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</code></pre><p><code>w7Ft2ymGmfc</code> 就是 YouTube 影片 ID</p>
+<p><strong>插入 Twitter 貼文</strong></p>
+<p>tweet URL:</p>
+<pre tabindex="0"><code>https://twitter.com/SanDiegoZoo/status/1453110110599868418
+</code></pre><p>Example tweet Input</p>
+<pre tabindex="0"><code><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Owl bet you&#39;ll lose this staring contest 🦉 <a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC</a></p>&mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) <a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</code></pre><h2 id="第-4-章-展示你的個人網站">第 4 章 展示你的個人網站</h2>
+<h3 id="單元1---發佈個人網站到-github">單元1 - 發佈個人網站到 Github</h3>
+<p>使用 Hugo 產生個人網站的程式碼：
+之前是輸入 <code>hugo server</code> 指令去運行 Hugo 在個人電腦上，如果要使用 Hugo 來產生個人網站的程式碼，只要輸入 <code>hugo</code> 即可。
+![[Pasted image 20220313234121.png]]</p>
+<p>回到 Finder 上，會發現在 example Site 裡面多了一個 public 的資料夾，就是 Hugo 新產生出來的個人網站的程式碼。
+![[Pasted image 20220313234331.png]]</p>
+<p>複製 public 裡面全部的檔案跟資料夾放到==本地端== <code>reiohuang.github.io</code> 資料夾的 repository 裡，最後再把它上傳到遠端 Github 的 <code>reiohuang.github.io</code> 資料夾上。
+![[Pasted image 20220313234601.png]]</p>
+<p>git 初始化本地端 <code>reiohuang.github.io</code> 資料夾準備與遠端的 repository 綁定：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git init
+git add .
+git ci -m <span style="color:#f1fa8c">&#39;my first commit&#39;</span>
+</code></pre></div><p>在 Github 中點擊 New repository，創建一個新的 repository。如果要使用 Github Pages 來架設個人網站，repository 的名字有命名規則，<code>Github 帳號.github.io</code>。
+![[Pasted image 20220313223715.png]]</p>
+<p>本地端的資料夾與遠端儲存庫綁定，並 push 資料到 GitHub 遠端。
+![[Pasted image 20220314000215.png]]</p>
+<p>成功上傳到 GitHub
+![[Pasted image 20220314000653.png]]</p>
+<p>開啟瀏覽器，網址列輸入 <code>reiohuang.github.io</code>，即可看到 Github Pages 已經成功地幫我們把 Hugo 的個人網站程式碼轉換成網站。</p>
+<blockquote>
+<p>每次新增、修改文章時，記得最前面要貼上 Hugo 的文章設定，才能正常顯示。</p>
+</blockquote>
+<h3 id="單元2---添加評論功能">單元2 - 添加評論功能</h3>
+<p>需要依靠其他的第三方網站才能達成，原理是因為 Github Pages 他是屬於靜態網頁，而評論功能是需要後端資料庫儲存，如果只使用 Github Pages 是沒有辦法加入評論功能。</p>
+<p>進入 Hugo 首頁，Search the Docs 輸入 comments，點擊第一個連結，Hugo 預設支持的評論功能網站是 Disqus，所以要先進到 Disqus 這個網站申請一個帳號，在 Disqus 創建一個評論功能之後再回頭修改程式碼，把 Disqus 的帳號跟個人網站連結在一起。</p>
+<blockquote>
+<p>注意：雖然 Hugo 預設支持的評論功能是 Disqus 網站，但是有的 Hugo 主題可能沒有開啟這個功能，所以要先檢查主題有沒有辦法加入評論功能。</p>
+</blockquote>
+<p>在 <code>config.toml</code> 設定檔裡面有找到 disqusShortname 的設定的話，就表示你使用的 Hugo 主題是支持 Disqus 評論功能，把申請的 Disqus 評論功能帳號填在這裡即可。</p>
+<p>![[Pasted image 20220314232444.png]]</p>
+<p>如果設定檔裡面沒有出現 disqus Shortname，表示 Hugo 主題目前是沒有辦法開啟評論功能。如果主題沒有辦法開啟評論功能，可以去修改這個 Hugo 的主題，讓他去支持評論功能，不過需要有 html 的程式碼基礎才能改得了。</p>
+<p>進入 Hugo 首頁，Search the Docs 輸入 disqus，點擊第一個連結，首先要先把 Hugo 內建的 Disqus html 的 template 放到文章的下方&hellip;未完待續。</p>
+<h3 id="單元3---添加-google-analytics">單元3 - 添加 Google Analytics</h3>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+  var indexURL = "https://reiohuang.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://reiohuang.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/search/mark.js"></script>
+
+<script src="https://reiohuang.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://reiohuang.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+
+</body>
+</html>
